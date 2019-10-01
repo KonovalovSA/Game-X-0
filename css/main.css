@@ -1,0 +1,29 @@
+.pad {
+  padding: 0px !important;
+  line-height: 0px !important;
+}
+
+td {
+  vertical-align: middle !important;
+}
+.xo {
+  width: 52px;
+  height: 52px;
+  padding: 0px !important;
+}
+
+#status {
+  margin-left: 15px;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.gamexo {
+  display: flex;
+  align-items: center;
+}
+
+.table {
+  width: 153px !important; 
+  height: 153px !important;
+}

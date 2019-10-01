@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/main.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<title>skproger</title>
+	</head>
+  	<body>
+	  	<div class="container mt-5">
+			<h3>Крестики-нолики (игра с самим собой)</h3>
+			<div class="gamexo mb-2">
+				<button id="btnxostart" class="btn btn-outline-secondary">Clear</button>
+				<p id="status">Статус игры: Ход Крестиков</p>
+			</div>
+			<table class="table table-bordered">
+				<tr>
+					<td class="A1 pad"><button id="btn" class="xo btna1"></button></td>
+					<td class="A2 pad"><button id="btn" class="xo btna2"></button></td>
+					<td class="A3 pad"><button id="btn" class="xo btna3"></button></td>
+				</tr>
+				<tr>
+					<td class="B1 pad"><button id="btn" class="xo btnb1"></button></td>
+					<td class="B2 pad"><button id="btn" class="xo btnb2"></button></td>
+					<td class="B3 pad"><button id="btn" class="xo btnb3"></button></td>
+				</tr>
+				<tr>
+					<td class="C1 pad"><button id="btn" class="xo btnc1"></button></td>
+					<td class="C2 pad"><button id="btn" class="xo btnc2"></button></td>
+					<td class="C3 pad"><button id="btn" class="xo btnc3"></button></td>
+				</tr>
+			</table>
+		</div>
+
+    	<!-- Optional JavaScript -->
+		<script src="js/index.js"></script>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	</body>
+</html>
